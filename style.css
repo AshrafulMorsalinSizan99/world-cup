@@ -76,6 +76,11 @@ main {
     margin-top: 50px;
 }
 
+.three-section {
+    width: 100px;
+    height: 100px;
+}
+
 .news button {
     margin-top: 10px;
 }
