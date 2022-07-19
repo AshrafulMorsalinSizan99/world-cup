@@ -57,6 +57,13 @@ main {
     display: block;
 }
 
+.bton {
+    width: 67px;
+    height: 24px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
 .front-view img {
     width: 581px;
     height: 613px;
@@ -69,18 +76,36 @@ main {
     margin-top: 50px;
 }
 
+.news button {
+    margin-top: 10px;
+}
+
+.news p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .info {
     display: flex;
 }
 
-.footer {
+.events {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    margin-left: 24px;
+}
+
+.footers {
     background-color: black;
     width: 1660px;
     height: 344px;
     margin-top: 130px;
 }
 
-.footer hr {
+.footers hr {
     width: 1320px;
     height: 0;
     margin-left: 165px;
@@ -88,7 +113,7 @@ main {
     color: white;
 }
 
-.footer h2 {
+.footers h2 {
     text-align: center;
     color: white;
     font-size: 40px;
