@@ -55,6 +55,11 @@ main {
     height: 64px;
     border-radius: 10px;
     display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .bton {
@@ -62,6 +67,10 @@ main {
     height: 24px;
     border: 1px solid;
     border-radius: 5px;
+}
+
+button.bttn:hover {
+    background-color: #DD0000;
 }
 
 .front-view img {
@@ -73,7 +82,14 @@ main {
     width: 1321px;
     height: 646px;
     /* margin: 50px 140px; */
-    margin-top: 50px;
+    margin-top: 70px;
+}
+
+.middle-section1 {
+    width: 1321px;
+    height: 646px;
+    /* margin: 50px 140px; */
+    margin-top: 100px;
 }
 
 .three-section {
@@ -83,27 +99,93 @@ main {
 
 .news button {
     margin-top: 10px;
+    margin-left: 5%;
 }
 
 .news p {
     margin-top: 15px;
+    margin-left: 5%;
     font-size: 18px;
     font-weight: 600;
 }
 
+.fa-clock,
+.fa-comment {
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
 .info {
     display: flex;
+    justify-content: center;
 }
 
 .events {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
-    grid-row-gap: 24px;
+    grid-row-gap: 4px;
     margin-left: 24px;
 }
 
+.news {
+    width: 312px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.button-use {
+    width: 312px;
+    height: 256px;
+    border-radius: 5px;
+
+    background-color: black;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.fixtures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 14px;
+    grid-row-gap: 64px;
+}
+
+.match {
+    align-items: center;
+    width: 288px;
+    height: 272px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.match h4 {
+    margin-top: 5px;
+}
+
+.match p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.match img {
+    width: 100px;
+    height: 60px;
+}
+
 .footers {
+    background-color: black;
+    width: 1660px;
+    height: 244px;
+    margin-top: 130px;
+}
+
+.footers1 {
     background-color: black;
     width: 1660px;
     height: 344px;
@@ -118,7 +200,23 @@ main {
     color: white;
 }
 
+.footers1 hr {
+    width: 1320px;
+    height: 0;
+    margin-left: 165px;
+    margin-top: 40px;
+    color: white;
+}
+
 .footers h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.footers1 h2 {
     text-align: center;
     color: white;
     font-size: 40px;
@@ -141,4 +239,18 @@ ul a {
 
     color: gray;
     text-decoration: none;
+}
+
+.icons {
+    display: flex;
+}
+
+footer {
+    margin-bottom: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
 }
